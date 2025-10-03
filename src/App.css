@@ -1,0 +1,33 @@
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 900;
+  color: #1a1a2e;
+  letter-spacing: 0.05em;
+  perspective: 1000px;
+  margin: 0;
+}
+
+.letter {
+  display: inline-block;
+  transform-origin: center;
+  opacity: 0;
+}
+
+.space {
+  display: inline-block;
+  width: 0.3em;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
